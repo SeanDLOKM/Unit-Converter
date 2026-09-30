@@ -19,5 +19,6 @@ def home():
             target = form.target_unit.data
             quantity = float(form.quantity.data)
             result = get_conversion_factor(source, target) * quantity
+            result = round(result, 3)
 
     return render_template("home.html", form = form, result = result)
