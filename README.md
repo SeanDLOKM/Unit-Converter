@@ -14,7 +14,7 @@ The app creates a dictionary from the conversion data provided in the CSV, effec
 ### Usage Instructions
 After selecting the **source unit** you want to convert to another unit, press the "Update Target Units" button to refresh the "Target Unit" options (it will filter to only show valid conversions).
 Enter the quantity you would like to convert, and hit "Calculate Conversion" for the result.<br>
-You can use your own CSV for unit conversions. Make sure the CSV is named ```unit_conversions.csv```, and is formatted in the following way:<br>
+You can use your own CSV for unit conversions. Make sure to replace the unit conversions CSV in the project with your own CSV named ```unit_conversions.csv```. It should be formatted in the following way:<br>
 * Three header columns: SourceUnit, TargetUnit, Factor
 * Any number of conversions and their corresponding factors in the following rows. Reverse conversions are optional as missing reverse conversions are calculated and added after the application starts.
 
