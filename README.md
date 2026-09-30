@@ -6,7 +6,7 @@ The app creates a dictionary from the conversion data provided in the CSV, effec
 
 ### Setup Instructions
 1. After pulling application files, it is strongly recommended to create a **virtual environment**.<br>(e.g. ```py -m venv env```)
-2. Once the virtual environment has been created, activate it.<br>(e.g. ```.\env\Scripts\Activate.ps1```)
+2. Once the virtual environment has been created, activate it.<br>(e.g. ```.\env\Scripts\Activate.ps1```)<br>The virtual environment can be ended any time by entering ```deactivate```.
 3. Install the required packages by using ```pip install -r requirements.txt```.
 4. A local development server to run the app can be started by using ```flask run```. It can be ended at any time using CTRL + C.
 5. Where it says ```Running on http://...:5000```, copy and paste the link into your browser, to access the application.
